@@ -71,3 +71,7 @@ p button {
 p button:hover {
     color: #ec9fea;
 }
+
+.white {
+    color: #fff;
+}
