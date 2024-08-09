@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #c0bdc3;
+  background-color: #f0f0f0;
 }
 
 main {
@@ -116,7 +116,7 @@ p:last-of-type {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
   height: 100%;
 }
