@@ -17,7 +17,7 @@
     </app-dashboard-item>
   </div>
   <div class="tickets-list">
-    <app-dashboard-item [image]="{ src: './assets/globe.png', alt: 'A globe' }" title="Traffic">
+    <app-dashboard-item class="ticketList" [image]="{ src: './assets/globe.png', alt: 'A globe' }" title="Traffic">
       <app-tickets [tickets]="tickets" (completeTicket)="onCloseTicket($event)" />
     </app-dashboard-item>
   </div>

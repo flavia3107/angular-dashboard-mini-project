@@ -14,7 +14,9 @@ export class NewTicketComponent {
   add = output<{ title: string; text: string }>();
 
   onSubmit(title: string, ticketText: string) {
-    this.add.emit({ title: title, text: ticketText });
-    this.form?.nativeElement.reset();
+    if (title && ticketText) {
+      this.add.emit({ title: title, text: ticketText });
+      this.form?.nativeElement.reset();
+    }
   }
 }

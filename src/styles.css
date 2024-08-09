@@ -14,8 +14,9 @@ body {
 }
 
 main {
-  width: 80%;
-  margin: 3rem 10%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 #dashboard {
@@ -24,7 +25,8 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  max-width: 85rem;
+  max-width: 40%;
+  min-width: 30rem;
 }
 
 #traffic {
@@ -39,7 +41,7 @@ p {
 }
 
 .chart {
-  width: 56rem;
+  width: 100%;
 }
 
 #chart {
@@ -64,15 +66,8 @@ p {
   }
 }
 
-@media (max-width: 768px) {
-  .chart {
-    width: 100%;
-  }
-}
-
 #status {
   display: block;
-  width: 15rem;
 }
 
 .status p:first-of-type {
@@ -178,6 +173,7 @@ button:hover .icon {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  min-width: 25rem;
 }
 
 #tickets ul {
@@ -202,8 +198,9 @@ button:hover .icon {
   color: #38343c;
 }
 
-#new-ticket {
-  width: 15rem;
+.tickets-list {
+  min-width: 30rem;
+  max-height: 47rem;
 }
 
 @media (min-width: 768px) {
@@ -236,4 +233,8 @@ button:hover .icon {
   width: 100%;
   justify-content: center;
   gap: 1rem;
+}
+
+.row app-dashboard-item {
+  width: 49%;
 }
