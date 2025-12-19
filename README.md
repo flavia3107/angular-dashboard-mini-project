@@ -1,28 +1,41 @@
-# CmpDeepDive
+# 📋 Angular Components & Templates Practice
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+This project is part of the **Angular - The Complete Guide (2025 Edition)** Udemy course.  
+It focuses on practicing **Angular components and templates** by building a small app that showcases their interaction.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Features
 
-## Code scaffolding
+- Creation and organization of **Angular components**  
+- Linking of **templates** and **styles**  
+- Use of **data binding** and **built-in directives** (`*ngIf`, `*ngFor`, etc.)  
+- Display of dynamic data and **responsive layout**  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Languages**: TypeScript, HTML, CSS  
+- **Framework**: Angular 16  
+- **Tools**: VS Code, Git, GitHub  
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🎯 Learning Objectives
 
-## Running end-to-end tests
+✅ Practice **Angular component creation** and structure  
+✅ Work with **component communication**  
+✅ Implement **data binding** and **directive usage**  
+✅ Build a small **interactive app** to apply core concepts  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🚀 Live Demo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# dashboard-angular
+[Demo](https://flavia3107.github.io/angular-dashboard-mini-project/)
+
+## 🎖️ Credits
+
+This project is built as part of the [**Udemy Course: Angular - The Complete Guide (2025 Edition)**](https://www.udemy.com/course-dashboard-redirect/?course_id=756150) by Maximilian Schwarzmüller.
+
