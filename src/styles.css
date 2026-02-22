@@ -238,3 +238,20 @@ button:hover .icon {
 .row app-dashboard-item {
   width: 49%;
 }
+
+@media (max-width: 780px) {
+  main {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  #dashboard,
+  .tickets-list {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .tickets-list {
+    margin-bottom: 1rem;
+  }
+}

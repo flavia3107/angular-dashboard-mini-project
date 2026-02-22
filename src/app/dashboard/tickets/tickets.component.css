@@ -38,3 +38,9 @@ div {
         flex-direction: row;
     }
 }
+
+@media (max-width: 780px) {
+    div {
+        min-height: 400px;
+    }
+}
